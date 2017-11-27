@@ -1,11 +1,49 @@
 
-/* CSS for background image properties */
 
-.boardimages .president {
+
+/* Content for covenant page */
+
+.covenant_map {
     background-color:rgb(209, 232, 255);
-    border: 10px solid rgb(209, 232, 255);
-    padding-bottom: 60px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+.covenant_map .covenant_content {
+    float: right;
+    margin: 0 1.5%;
+    width: 50%;
+    text-align: center; 
+
+}
+
+.covenant_map .covenant_image {
+   float: left;
+   margin: 0 1.5%;
+   width: 50%;
+   
+}
+
+/* Content for board page */
+.boardimages {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boardimages .board_content {
+    background-color:rgb(209, 232, 255);
+    padding-top: 8px;
+    padding-bottom: 5px;
+    width: 11%;
+    float: left;
+    margin: 0 2%;
+    
+}
+
+/* CSS for background image properties */
 
 body {
     background: 
