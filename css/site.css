@@ -1,0 +1,77 @@
+
+/* CSS for background image properties */
+
+.boardimages .president {
+    background-color:rgb(209, 232, 255);
+    border: 10px solid rgb(209, 232, 255);
+    padding-bottom: 60px;
+}
+
+body {
+    background: 
+      /* top, transparent red */
+      linear-gradient(
+        rgba(123, 161, 193, 0.90), 
+        rgba(123, 161, 193, 0.90)
+      ),
+      /* your image */
+      url("img/background.jpg");
+  }
+
+#commiteeparagraph {
+    background-color: rgb(209, 232, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+  /* Form CSS below */
+
+#newsletterform {
+    width: 35%;
+    margin-right: 10%;
+    margin-left: 63%;
+    background-color: rgb(209, 232, 255);
+    
+}
+
+
+/* Navagation bar CSS below  */
+
+#nav_menu ul {
+    text-align: center;
+    list-style-type: none;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+    
+
+}
+#nav_menu ul li {
+    
+    padding: 10px;
+    display: inline;
+    
+    
+}
+
+#nav_menu ul li a {
+    
+    text-decoration: none;
+    color: rgb(123, 161,193);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 25px;
+}   
+
+
+#nav_menu ul li a:hover{
+    color: rgb(35, 65, 88);
+    text-decoration:underline;
+}
+
+/* BOARD IMAGE CSS */
+
