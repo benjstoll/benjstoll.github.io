@@ -1,5 +1,13 @@
+/* Home page */
 
+.home_page {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    background-color:rgb(209, 232, 255);
+    padding: 10px;
+    
 
+}
 
 /* Content for covenant page */
 
@@ -28,18 +36,33 @@
    
 }
 
-/* Content for board page */
-.boardimages {
+/* Content for board page (row 1) */
+.boardimages_row1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.boardimages .board_content {
+.boardimages_row1 .board_content {
     background-color:rgb(209, 232, 255);
     padding-top: 8px;
     padding-bottom: 5px;
-    width: 11%;
+    width: 13%;
     float: left;
-    margin: 0 1.5%;
+    margin: 0 6%;
+    
+}
+
+/* Content for board page (row 2) */
+.boardimages_row2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boardimages_row2 .board_content {
+    background-color:rgb(209, 232, 255);
+    padding-top: 8px;
+    padding-bottom: 5px;
+    width: 13%;
+    float: left;
+    margin: 3.5% 9%;
     
 }
 
@@ -55,6 +78,8 @@ body {
       /* your image */
       url("img/background.jpg");
   }
+
+/* Commitee Page */
 
 #commiteeparagraph {
     background-color: rgb(209, 232, 255);
@@ -80,7 +105,7 @@ body {
 
 
 
-#nav_menu ul {
+.navbar_properties .nav_menu ul {
     text-align: center;
     list-style-type: none;
     background-color: white;
@@ -89,7 +114,7 @@ body {
     
 
 }
-#nav_menu ul li {
+.navbar_properties .nav_menu ul li {
     
     padding: 10px;
     display: inline;
@@ -97,7 +122,7 @@ body {
     
 }
 
-#nav_menu ul li a {
+.navbar_properties .nav_menu ul li a {
     
     text-decoration: none;
     color: rgb(123, 161,193);
@@ -108,9 +133,15 @@ body {
 }   
 
 
-#nav_menu ul li a:hover{
+.navbar_properties .nav_menu ul li a:hover{
     color: rgb(35, 65, 88);
     text-decoration:underline;
+}
+
+.navbar_properties .nav_menu .logo {
+    float: left;
+    margin: 0 0%;
+    width: 5%;
 }
 
 /* BOARD IMAGE CSS */
