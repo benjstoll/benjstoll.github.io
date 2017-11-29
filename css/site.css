@@ -9,6 +9,54 @@
 
 }
 
+/* FAQ Content */
+
+/* Form CSS below */
+
+.newsletterform {
+    float: right;
+    padding: 2%;
+    margin: 0 1.5%;
+    width: 45%;
+    background-color: rgb(209, 232, 255);
+    
+}
+
+/* Google maps */
+
+.google_map_widget {
+    float: left;
+    margin: 0 1.5%;
+    width: 40%;;
+    background-color: rgb(209, 232, 255);
+    padding: 1%;
+}
+
+.google_map_widget .text_map {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.google_map_widget .google_map {
+    text-align: center;
+    
+}
+
+/* Contact us form */
+
+.contact_us {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    background-color: rgb(209, 232, 255);
+    float: right;
+    width: 45%;
+    margin: 0 1.5%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 /* Content for covenant page */
 
 .covenant_map {
@@ -90,15 +138,7 @@ body {
     margin-left: 5%;
 }
 
-  /* Form CSS below */
 
-#newsletterform {
-    width: 35%;
-    margin-right: 10%;
-    margin-left: 63%;
-    background-color: rgb(209, 232, 255);
-    
-}
 
 
 /* Navagation bar CSS below  */
