@@ -70,26 +70,26 @@
 }
 
 .covenant_map .covenant_content {
-    float: right;
-    margin: 0 1.5%;
-    width: 50%;
+    float: left;
+    margin: 0 1%;
+    width: 37%;
     text-align: left; 
 
 }
 
 .covenant_map .covenant_image {
    float: left;
-   margin: 0 1.5%;
-   width: 50%;
+   margin: 0 1%;
+   width: 25%;
    
 }
 
 /* Covenant Form Content */
 
-.covenant_form {
-    background-color:rgb(209, 232, 255);
-    text-align: left;
-    width: 400px;
+.covenant_map .covenant_form {
+    float: left;
+    margin: 0 1%;
+    width: 20%;
 
 }
 
