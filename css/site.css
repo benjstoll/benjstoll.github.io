@@ -73,7 +73,7 @@
     float: right;
     margin: 0 1.5%;
     width: 50%;
-    text-align: center; 
+    text-align: left; 
 
 }
 
@@ -82,6 +82,15 @@
    margin: 0 1.5%;
    width: 50%;
    
+}
+
+/* Covenant Form Content */
+
+.covenant_form {
+    background-color:rgb(209, 232, 255);
+    text-align: left;
+    width: 400px;
+
 }
 
 /* Content for board page (row 1) */
