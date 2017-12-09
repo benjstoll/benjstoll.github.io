@@ -5,8 +5,17 @@
     font-size: 3em;
     background-color:rgb(209, 232, 255);
     padding: 10px;
-    
+    text-align: center;
 
+}
+
+.announcements .announcements_paragraph {
+    padding-top: 10%;
+    padding-right: 3%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 20%;
 }
 
 /* FAQ Content */
@@ -125,6 +134,10 @@
 
 /* CSS for background image properties */
 
+ .homepage {
+    background: url("img/home_background.jpg");
+}
+
 body {
     background: 
       /* top, transparent red */
@@ -151,7 +164,6 @@ body {
 
 
 /* Navagation bar CSS below  */
-
 
 
 .navbar_properties .nav_menu ul {
