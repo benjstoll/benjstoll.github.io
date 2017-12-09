@@ -20,6 +20,17 @@
 
 /* FAQ Content */
 
+.questions {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 35%;
+    background-color: rgb(209, 232, 255);
+    padding: 1%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 /* Form CSS below */
 
 .newsletterform {
@@ -64,6 +75,7 @@
     margin-top: 4%;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 1%;
 }
 
 /* Content for covenant page */
