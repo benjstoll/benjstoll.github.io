@@ -23,15 +23,17 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        
+        <link rel="stylesheet" href="css/site.css">
     </head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="css/site.css">
+    
 <section class="navbar_properties">
+
     <nav class="nav_menu">
+            <div class="logo">
+                <img src="img/logo.jpg" alt ="logo" width="190">
+            </div>
             <ul>
-                <div class="logo">
-                    <img src="img/logo.jpg" width="190">
-                </div>
                 <li><a href ="index.html">Home</a></li>
                 <li><a href ="faq.html">FAQs</a></li>
                 <li><a href ="board.html">Board</a></li>
@@ -44,24 +46,26 @@
 
 <!-- Content for covenant page -->
 
-        <section class="covenant_map" >
+        <section class="covenant_map">
            
             <div class="covenant_form">
-                <form method="POST" form action="https://formspree.io/bstoll291997@gmail.com">
+                <form method="POST" action="https://formspree.io/bstoll291997@gmail.com">
                 <fieldset>                    
                     Full Name <br>
                     <input type="text" name="name" placeholder="Name"> <br>
                     Email <br>
                     <input type="email" name="email" placeholder="Email"> <br>
                     Phone Number <br>
-                    <input type="phone" name="phone" placeholder="###" autocomplete="off"> <br>
+                    <input type="number" name="phone" placeholder="###" autocomplete="off"> <br>
                     Address of Violation <br>
-                    <input type="address" name="address" placeholder="Address" autocomplete="off"> <br>
+                    <input type="text" name="address" placeholder="Address" autocomplete="off"> <br>
                     Violation <br>
                     <textarea name="message" placeholder="Please describe violation"></textarea> <br>
                     <input type="submit" value="Send">
-            </form>    
-            </div>
+                </fieldset>
+                </form> 
+            </div>   
+            
 
             <div class="covenant_content">
                 <h2>Please Select Your Phase</h2>
@@ -83,7 +87,7 @@
             </div>
             
             <div class="map_image">
-                <img src="img/covenants.jpg" width="500">
+                <img src="img/covenants.jpg" alt="covenant map" width="500">
             </div>   
             
         </section>
