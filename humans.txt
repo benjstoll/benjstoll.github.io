@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Ben Stoll> -- <Website Designer> -- <twitter>
 
 # THANKS
 
