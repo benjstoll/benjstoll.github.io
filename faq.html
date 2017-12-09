@@ -28,11 +28,12 @@
     </head>
     
 <section class="navbar_properties">
+
     <nav class="nav_menu">
+            <div class="logo">
+                <img src="img/logo.jpg" alt ="logo" width="190">
+            </div>
             <ul>
-                <div class="logo">
-                    <img src="img/logo.jpg" width="190">
-                </div>
                 <li><a href ="index.html">Home</a></li>
                 <li><a href ="faq.html">FAQs</a></li>
                 <li><a href ="board.html">Board</a></li>
@@ -41,6 +42,7 @@
             </ul>
         </nav>
 </section>
+
     <body>
 
         <!-- Google map widget here -->
@@ -52,20 +54,20 @@
             <iframe width="600" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Prarie%20Fields%20HOA&key=AIzaSyDtaZW1GUixJd8DDpsNhrSEXAxbW9_GVkY" allowfullscreen></iframe>
             </div>
         </section>
+
         <!-- Newletter sign up form -->
-        <form class="newsletterform" action="https://formspree.io/bstoll291997@gmail.com">
+        <form class="newsletterform" method = "POST" action="https://formspree.io/bstoll291997@gmail.com">
             <fieldset>
-              <method = "POST">
               <legend>Sign up for our newletter!</legend>
-              First name:<br>
-              <input type="text" name="firstname">
+              First name<br>
+              <input type="text" name="name" placeholder="First Name">
               <br>
               Email Address:<br>
-              <input type="text" name="emailaddress">
-              <br><br>
+              <input type="email" name="email" placeholder="Email Address">
+              <br>
               <input type="submit" value="Submit">
             </fieldset>
-          </form>
+        </form>
 
           <!-- Contact us -->
           <section class="contact_us">
