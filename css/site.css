@@ -68,30 +68,27 @@
 
 /* Content for covenant page */
 
-.covenant_map {
-    background-color:rgb(209, 232, 255);
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding: 5px;
+.covenant_map {       
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+.covenant_map .map_image {
+    float: left;
+    margin: 0 1%;
+    width: 35%;
 }
 
 .covenant_map .covenant_content {
     float: left;
     margin: 0 1%;
-    width: 37%;
-    text-align: left; 
+    width: 35%;
+    text-align: left;
+    background-color: rgb(209, 232, 255); 
+    padding: 5px;
 
 }
 
-.covenant_map .covenant_image {
-   float: left;
-   margin: 0 1%;
-   width: 25%;
-   
-}
 
 /* Covenant Form Content */
 
@@ -99,7 +96,8 @@
     float: left;
     margin: 0 1%;
     width: 20%;
-
+    background-color: rgb(209, 232, 255);
+    padding: 5px
 }
 
 /* Content for board page (row 1) */
